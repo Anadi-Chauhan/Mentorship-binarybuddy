@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    border: 2px solid color(srgb 0.0264 0.0958 0.1204);
+    background-color: color(srgb 0.0264 0.0958 0.1204);
+}
+.navbars{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    position: sticky;
+    height: 50px;
+}
+.logo{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 40px;
+    width: 40px;
+}
+.end{
+    margin-left: 200px;
+}
+.navbar li{
+    list-style: none;
+    padding: 10px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.card{
+    color: white;
+    display: flex;
+    width: 25vw;
+    box-shadow: 1px 1px 10px color(display-p3 0.52 0.94 1);
+    margin: 10px;
+    text-align: center;
+    border: 2px solid rgb(11, 58, 63);
+    height: 30vh;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgb(13, 38, 41);
+}
+.card h4{
+    margin-top: 14px;
+}
+.card-2 h4{
+    margin-top: 5px;
+}
+.card-2 h3{
+    margin-top: 14px;
+}
+.card button{
+    margin-top: 20px;
+}
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 2px rgba(4, 118, 130, 0.7);
+}

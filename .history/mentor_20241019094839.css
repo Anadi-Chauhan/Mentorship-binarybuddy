@@ -1,0 +1,40 @@
+.navbars{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    position: sticky;
+    height: 50px;
+}
+.logo{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    height: 40px;
+    width: 40px;
+}
+.end{
+    margin-left: 200px;
+}
+.navbar li{
+    list-style: none;
+    padding: 10px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
